@@ -1,0 +1,99 @@
+2026-06-19 06:53:10,808 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #11: model=xiaomi/mimo-v2.5-pro provider=openrouter in=66961 out=167 total=67128 latency=6.5s cache=66688/66961 (100%)
+2026-06-19 06:53:18,434 INFO tools.browser_tool: Cleaning up inactive session for task: 20260619_065102_52fc83 (inactive for 120s)
+2026-06-19 06:54:10,974 WARNING [20260619_065102_52fc83] agent.tool_executor: Tool terminal returned error (60.16s): {"output": "", "exit_code": -1, "error": "BLOCKED: User denied this command. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt the same outco
+2026-06-19 06:54:12,078 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.10s, 178 chars)
+2026-06-19 06:54:12,105 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-92 (_call):133028459747008 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:22,566 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-92 (_call):133028459747008 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:22,567 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #12: model=xiaomi/mimo-v2.5-pro provider=openrouter in=67296 out=162 total=67458 latency=10.5s cache=66944/67296 (99%)
+2026-06-19 06:54:22,705 INFO agent.tool_executor: tool read_file completed (0.11s, 2405 chars)
+2026-06-19 06:54:22,733 INFO agent.tool_executor: tool read_file completed (0.14s, 21039 chars)
+2026-06-19 06:54:22,734 INFO agent.tool_executor: tool read_file completed (0.14s, 176 chars)
+2026-06-19 06:54:22,762 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-105 (_call):133028476532416 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:31,110 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-105 (_call):133028476532416 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:31,111 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #13: model=xiaomi/mimo-v2.5-pro provider=openrouter in=74949 out=219 total=75168 latency=8.4s cache=67264/74949 (90%)
+2026-06-19 06:54:31,170 INFO agent.tool_executor: tool search_files completed (0.05s, 132 chars)
+2026-06-19 06:54:31,172 INFO agent.tool_executor: tool search_files completed (0.05s, 2178 chars)
+2026-06-19 06:54:31,173 INFO agent.tool_executor: tool search_files completed (0.05s, 175 chars)
+2026-06-19 06:54:31,223 INFO agent.tool_executor: tool read_file completed (0.10s, 6614 chars)
+2026-06-19 06:54:31,247 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-116 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:39,954 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-116 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:39,956 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #14: model=xiaomi/mimo-v2.5-pro provider=openrouter in=78108 out=140 total=78248 latency=8.7s cache=74944/78108 (96%)
+2026-06-19 06:54:40,016 INFO agent.tool_executor: tool search_files completed (0.04s, 1912 chars)
+2026-06-19 06:54:40,076 INFO agent.tool_executor: tool read_file completed (0.10s, 2779 chars)
+2026-06-19 06:54:40,097 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-123 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:46,293 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-123 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:46,294 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #15: model=xiaomi/mimo-v2.5-pro provider=openrouter in=79885 out=220 total=80105 latency=6.2s cache=78080/79885 (98%)
+2026-06-19 06:54:46,320 INFO [20260619_065102_52fc83] agent.tool_executor: tool todo completed (0.00s, 636 chars)
+2026-06-19 06:54:46,340 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-124 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:49,775 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-124 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:49,776 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #16: model=xiaomi/mimo-v2.5-pro provider=openrouter in=80295 out=99 total=80394 latency=3.4s cache=79872/80295 (99%)
+2026-06-19 06:54:50,498 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.70s, 90 chars)
+2026-06-19 06:54:51,593 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.09s, 133 chars)
+2026-06-19 06:54:51,621 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-127 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:54,693 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-127 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:54,694 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #17: model=xiaomi/mimo-v2.5-pro provider=openrouter in=80483 out=64 total=80547 latency=3.1s cache=80256/80483 (100%)
+2026-06-19 06:54:55,703 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.99s, 429 chars)
+2026-06-19 06:54:55,720 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-129 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:59,066 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-129 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:54:59,068 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #18: model=xiaomi/mimo-v2.5-pro provider=openrouter in=80712 out=69 total=80781 latency=3.4s cache=80448/80712 (100%)
+2026-06-19 06:55:44,203 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (45.12s, 91 chars)
+2026-06-19 06:55:44,231 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-131 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:46,695 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-131 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:46,697 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #19: model=xiaomi/mimo-v2.5-pro provider=openrouter in=80822 out=61 total=80883 latency=2.5s cache=80704/80822 (100%)
+2026-06-19 06:55:46,793 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.08s, 259 chars)
+2026-06-19 06:55:46,820 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-133 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:50,617 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-133 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:50,618 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #20: model=xiaomi/mimo-v2.5-pro provider=openrouter in=81038 out=100 total=81138 latency=3.8s cache=80768/81038 (100%)
+2026-06-19 06:55:51,374 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.75s, 498 chars)
+2026-06-19 06:55:51,402 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-135 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:55,281 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-135 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:55:55,282 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #21: model=xiaomi/mimo-v2.5-pro provider=openrouter in=81284 out=81 total=81365 latency=3.9s cache=81024/81284 (100%)
+2026-06-19 06:56:55,386 WARNING [20260619_065102_52fc83] agent.tool_executor: Tool terminal returned error (60.08s): {"output": "", "exit_code": -1, "error": "BLOCKED: User denied this command. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt the same outco
+2026-06-19 06:56:55,398 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-136 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:56:59,739 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-136 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:56:59,740 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #22: model=xiaomi/mimo-v2.5-pro provider=openrouter in=81459 out=91 total=81550 latency=4.3s cache=81280/81459 (100%)
+2026-06-19 06:57:59,825 WARNING [20260619_065102_52fc83] agent.tool_executor: Tool terminal returned error (60.07s): {"output": "", "exit_code": -1, "error": "BLOCKED: User denied this command. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt the same outco
+2026-06-19 06:57:59,839 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-137 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:58:07,415 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-137 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:58:07,416 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #23: model=xiaomi/mimo-v2.5-pro provider=openrouter in=80720 out=81 total=80801 latency=7.6s
+2026-06-19 06:58:34,017 INFO tui_gateway.ws: ws accepted peer=172.19.0.1:53613
+2026-06-19 06:58:34,128 INFO hermes_cli.web_server: pty accepted peer=172.19.0.1 mode=gated cred=ticket
+2026-06-19 06:58:34,199 INFO run_agent: Loaded environment variables from /opt/data/.env
+2026-06-19 06:58:34,297 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:44818
+2026-06-19 06:58:35,205 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-4 (_build):136465702958784 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:58:35,205 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-6 (_build):136465338070720 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:58:35,286 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,286 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:35,287 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,287 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:35,292 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,292 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:35,293 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,377 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:35,450 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,450 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:35,452 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-06-19 06:58:35,453 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 06:59:35.
+2026-06-19 06:58:36,101 WARNING tui_gateway.server: config.yaml has empty section(s): `context_file_max_chars`, `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-19 06:58:36,102 WARNING tui_gateway.server: config.yaml has empty section(s): `context_file_max_chars`, `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-19 06:59:07,507 WARNING [20260619_065102_52fc83] agent.tool_executor: Tool terminal returned error (60.07s): {"output": "", "exit_code": -1, "error": "BLOCKED: User denied this command. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt the same outco
+2026-06-19 06:59:07,523 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-138 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:15,322 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-138 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:15,323 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #24: model=xiaomi/mimo-v2.5-pro provider=openrouter in=81923 out=61 total=81984 latency=7.8s
+2026-06-19 06:59:15,430 WARNING [20260619_065102_52fc83] agent.tool_executor: Tool terminal returned error (0.09s): {"output": "", "exit_code": 1, "error": null, "exit_code_meaning": "No matches found (not an error)"}
+[Tool loop warning: same_tool_failure_warning; count=4; terminal has failed 4 times this turn. Th
+2026-06-19 06:59:15,457 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-140 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:19,126 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-140 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:19,127 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #25: model=xiaomi/mimo-v2.5-pro provider=openrouter in=82136 out=58 total=82194 latency=3.7s cache=81920/82136 (100%)
+2026-06-19 06:59:19,248 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.10s, 98 chars)
+2026-06-19 06:59:19,274 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-142 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:22,802 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-142 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:22,804 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #26: model=xiaomi/mimo-v2.5-pro provider=openrouter in=82251 out=103 total=82354 latency=3.5s cache=82112/82251 (100%)
+2026-06-19 06:59:22,895 INFO [20260619_065102_52fc83] agent.tool_executor: tool search_files completed (0.07s, 18 chars)
+2026-06-19 06:59:22,910 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-146 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:26,959 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-146 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:26,960 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #27: model=xiaomi/mimo-v2.5-pro provider=openrouter in=82372 out=86 total=82458 latency=4.1s cache=82240/82372 (100%)
+2026-06-19 06:59:27,784 INFO [20260619_065102_52fc83] agent.tool_executor: tool terminal completed (0.81s, 263 chars)
+2026-06-19 06:59:27,810 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-148 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:34,458 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-148 (_call):133028468139712 provider=openrouter base_url=https://openrouter.ai/api/v1 model=xiaomi/mimo-v2.5-pro
+2026-06-19 06:59:34,459 INFO [20260619_065102_52fc83] agent.conversation_loop: API call #28: model=xiaomi/mimo-v2.5-pro provider=openrouter in=82591 out=160 total=82751 latency=6.7s cache=82368/82591 (100%) 
